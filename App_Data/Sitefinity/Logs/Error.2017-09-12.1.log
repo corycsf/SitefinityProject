@@ -1,0 +1,2231 @@
+----------------------------------------
+Timestamp: 9/11/2017 7:26:27 PM
+
+Message: HandlingInstanceID: e4126e63-adc6-431b-855e-380cceb71282
+An exception of type 'Telerik.Sitefinity.Data.Decorators.ConnectionNotFoundException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------
+09/11/2017 14:26:27
+Type : Telerik.Sitefinity.Data.Decorators.ConnectionNotFoundException, Telerik.Sitefinity, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Connection string "Sitefinity" could not be found in config files.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+BareMessage : Connection string "Sitefinity" could not be found in config files.
+Filename : 
+Line : 0
+Errors : System.Configuration.ConfigurationException[]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146232062
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMembershipProvider_59e16931fa07443aa444cce6c49ff7ba.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/11/2017 7:26:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131496315756589143
+ThreadIdentity : Anonymous
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-1-131496315756589143
+
+ProcessId: 34424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31464
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/11/2017 7:26:27 PM
+
+Message: HandlingInstanceID: 87e884b0-4c18-4023-9244-bfb3bec14d28
+An exception of type 'Telerik.Sitefinity.Data.Decorators.ConnectionNotFoundException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------
+09/11/2017 14:26:27
+Type : Telerik.Sitefinity.Data.Decorators.ConnectionNotFoundException, Telerik.Sitefinity, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Connection string "Sitefinity" could not be found in config files.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+BareMessage : Connection string "Sitefinity" could not be found in config files.
+Filename : 
+Line : 0
+Errors : System.Configuration.ConfigurationException[]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146232062
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMembershipProvider_59e16931fa07443aa444cce6c49ff7ba.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/11/2017 7:26:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131496315756589143
+ThreadIdentity : Anonymous
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-1-131496315756589143
+
+ProcessId: 34424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31464
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/11/2017 9:25:37 PM
+
+Message: HandlingInstanceID: 37935ddb-432e-4e71-b5e8-49808f41d5a0
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+09/11/2017 16:25:37
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/11/2017 9:25:37 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-131496384275816354
+ThreadIdentity : 
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/914141fb-aa22-4db8-aaa7-c8c0bdb9f02b/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-4-131496384275816354
+
+ProcessId: 34424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20832
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/11/2017 9:26:37 PM
+
+Message: HandlingInstanceID: cea8fc2c-25a1-4e49-b35d-7bdbb760df32
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+09/11/2017 16:26:37
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/11/2017 9:26:37 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-131496384275816354
+ThreadIdentity : 
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/1987e37f-2909-4471-af7e-ede55eacc12c/?package=Bootstrap
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-4-131496384275816354
+
+ProcessId: 34424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20832
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/11/2017 9:49:47 PM
+
+Message: HandlingInstanceID: 801b255e-752c-489c-8cc3-750d2610963c
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+09/11/2017 16:49:47
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/11/2017 9:49:47 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-131496384275816354
+ThreadIdentity : 
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/e439e47a-1284-4b08-bdce-68ae0fded126/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-4-131496384275816354
+
+ProcessId: 34424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17084
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 1:29:15 PM
+
+Message: Timestamp: 9/12/2017 1:29:15 PM
+Message: System.AggregateException: One or more errors occurred. ---> System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssemblies()
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.get_ControllerContainerAssemblies()
+   at Telerik.Sitefinity.Frontend.FrontendModule.InitializeDependencyResolver()
+   at Telerik.Sitefinity.Frontend.FrontendModule.Load()
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<Init>b__2(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: SPARE-20170524
+App Domain: /LM/W3SVC/2/ROOT-5-131496965322723204
+ProcessId: 34424
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:42304
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-5-131496965322723204
+
+ProcessId: 34424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:42304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:01:50 PM
+
+Message: Timestamp: 9/12/2017 2:01:50 PM
+Message: System.AggregateException: One or more errors occurred. ---> System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssemblies()
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.get_ControllerContainerAssemblies()
+   at Telerik.Sitefinity.Frontend.FrontendModule.InitializeDependencyResolver()
+   at Telerik.Sitefinity.Frontend.FrontendModule.Load()
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<Init>b__2(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: SPARE-20170524
+App Domain: /LM/W3SVC/2/ROOT-6-131496984874502211
+ProcessId: 34424
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:18424
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-6-131496984874502211
+
+ProcessId: 34424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18424
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:03:04 PM
+
+Message: Timestamp: 9/12/2017 2:03:04 PM
+Message: System.AggregateException: One or more errors occurred. ---> System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssemblies()
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.get_ControllerContainerAssemblies()
+   at Telerik.Sitefinity.Frontend.FrontendModule.InitializeDependencyResolver()
+   at Telerik.Sitefinity.Frontend.FrontendModule.Load()
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<Init>b__2(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: SPARE-20170524
+App Domain: /LM/W3SVC/2/ROOT-7-131496985614218089
+ProcessId: 34424
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:12280
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-7-131496985614218089
+
+ProcessId: 34424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12280
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:04:25 PM
+
+Message: Timestamp: 9/12/2017 2:04:25 PM
+Message: System.AggregateException: One or more errors occurred. ---> System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssemblies()
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.get_ControllerContainerAssemblies()
+   at Telerik.Sitefinity.Frontend.FrontendModule.InitializeDependencyResolver()
+   at Telerik.Sitefinity.Frontend.FrontendModule.Load()
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<Init>b__2(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: SPARE-20170524
+App Domain: /LM/W3SVC/2/ROOT-8-131496986457260746
+ProcessId: 34424
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:25916
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-8-131496986457260746
+
+ProcessId: 34424
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25916
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:22:25 PM
+
+Message: HandlingInstanceID: 079ed681-546e-4dba-80f9-ca941968568c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:22:25
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Layouts/customLayout.cshtml" cannot be requested directly because it calls the "RenderBody" method.
+Source : System.Web.WebPages
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void EnsurePageCanBeRequestedDirectly(System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.WebPages.WebPageBase.EnsurePageCanBeRequestedDirectly(String methodName)
+   at System.Web.WebPages.WebPageBase.RenderBody()
+   at SitefinityWebApp.ResourcePackages.SmoothFusion.MVC.Views.Layouts.customLayout.Execute() in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\obj\FeatherCodeGen\ResourcePackages\SmoothFusion\MVC\Views\..MVC\Views\Layouts\customLayout.cshtml:line 31
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at RazorGenerator.Mvc.PrecompiledMvcView.Render(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutRenderer.RenderViewToString(ControllerContext context, String viewPath, Boolean placeholdersOnly)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutRenderer.GetLayoutTemplate(String templateName, Boolean placeholdersOnly)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutVirtualFileResolver.Open(PathDefinition definition, String virtualPath)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.MvcMasterPage.LayoutOutput(String path)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.MvcMasterPage.ApplyToPage(Page page)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.PageInitializer.PreInitHandler(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreInit(EventArgs e)
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:22:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-131496996531760696
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Sitefinity/Template/44db28a4-20a9-4f9b-9bb5-a9ed0ae4397e
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-6-131496996531760696
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:37324
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:24:55 PM
+
+Message: HandlingInstanceID: c3d1eb75-51f0-4dbf-be57-ac91a24bb4ec
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:24:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file "~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Layouts/customLayout.cshtml" cannot be requested directly because it calls the "RenderBody" method.
+Source : System.Web.WebPages
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void EnsurePageCanBeRequestedDirectly(System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.WebPages.WebPageBase.EnsurePageCanBeRequestedDirectly(String methodName)
+   at System.Web.WebPages.WebPageBase.RenderBody()
+   at SitefinityWebApp.ResourcePackages.SmoothFusion.MVC.Views.Layouts.customLayout.Execute() in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\obj\FeatherCodeGen\ResourcePackages\SmoothFusion\MVC\Views\..MVC\Views\Layouts\customLayout.cshtml:line 33
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at RazorGenerator.Mvc.PrecompiledMvcView.Render(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutRenderer.RenderViewToString(ControllerContext context, String viewPath, Boolean placeholdersOnly)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutRenderer.GetLayoutTemplate(String templateName, Boolean placeholdersOnly)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.LayoutVirtualFileResolver.Open(PathDefinition definition, String virtualPath)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.MvcMasterPage.LayoutOutput(String path)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Layouts.MvcMasterPage.ApplyToPage(Page page)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.PageInitializer.PreInitHandler(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreInit(EventArgs e)
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:24:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-131496998649402952
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Sitefinity/Template/44db28a4-20a9-4f9b-9bb5-a9ed0ae4397e
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-7-131496998649402952
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:32544
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:34:31 PM
+
+Message: HandlingInstanceID: d6b5f49c-6398-4c47-9120-6032d60ce32b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:34:31
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:34:31 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-131497003566721833
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-11-131497003566721833
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18776
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:39:03 PM
+
+Message: HandlingInstanceID: 69d6a2a7-6f0a-4b27-8bbc-d2a9814a2c3d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:39:03
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:39:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-12-131497006456809137
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-12-131497006456809137
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:38884
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:40:40 PM
+
+Message: HandlingInstanceID: 3e729649-6937-49b6-8949-78081af54532
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:40:40
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:40:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-13-131497007677765324
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-13-131497007677765324
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8160
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:43:40 PM
+
+Message: HandlingInstanceID: ea0dd17e-4344-4359-9f40-5b20d6cf5bc8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:43:40
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:43:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-14-131497009363694921
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-14-131497009363694921
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:37500
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:46:46 PM
+
+Message: HandlingInstanceID: 3c3b195a-b0e3-483a-a994-e6f8d41e97c7
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:46:46
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:46:46 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-15-131497011266086864
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-15-131497011266086864
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:38988
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:49:44 PM
+
+Message: HandlingInstanceID: 7db73110-4e7b-41e8-b4e3-e8859f936ecb
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:49:44
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:49:44 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-16-131497013086268512
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-16-131497013086268512
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:38332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:52:05 PM
+
+Message: HandlingInstanceID: 8e0d50cc-baae-435f-a5b7-9907d443950e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:52:05
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:52:05 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-17-131497014520179695
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-17-131497014520179695
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:31952
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:55:31 PM
+
+Message: HandlingInstanceID: 29918b8e-2793-442c-92d7-1e925c1ab58e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 09:55:31
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:55:31 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-18-131497016562394628
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-18-131497016562394628
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:15280
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 2:56:45 PM
+
+Message: HandlingInstanceID: 07c5f926-feef-4f1e-8aa5-a23631cba173
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+09/12/2017 09:56:45
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 2:56:45 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-18-131497016562394628
+ThreadIdentity : 
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/1c891b91-818f-4238-9277-527d68a283b2/?package=SmoothFusion
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-18-131497016562394628
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23724
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 3:47:09 PM
+
+Message: Timestamp: 9/12/2017 3:47:09 PM
+Message: System.AggregateException: One or more errors occurred. ---> System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssemblies()
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.get_ControllerContainerAssemblies()
+   at Telerik.Sitefinity.Frontend.FrontendModule.InitializeDependencyResolver()
+   at Telerik.Sitefinity.Frontend.FrontendModule.Load()
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<Init>b__2(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsMarkedAssembly[TAttribute](String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.IsControllerContainer(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.RetrieveAssembly(String assemblyFileName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.ControllerContainerInitializer.<>c__DisplayClass11.<RetrieveAssemblyAsync>b__10()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: SPARE-20170524
+App Domain: /LM/W3SVC/2/ROOT-19-131497048130712212
+ProcessId: 40652
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:2124
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-19-131497048130712212
+
+ProcessId: 40652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2124
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 4:54:58 PM
+
+Message: HandlingInstanceID: 85d23a8c-1b06-43f8-a044-d313c1db9a43
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+09/12/2017 11:54:58
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute(Expression expr)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at SitefinityWebApp.Mvc.Controllers.CustomCarouselController.Index() in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\Mvc\Controllers\CustomCarouselController.cs:line 32
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 4:54:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-5-131497088357157305
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/index/Action/Edit
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Query execution found more than one element.
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-5-131497088357157305
+
+ProcessId: 2676
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2084
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 4:59:55 PM
+
+Message: HandlingInstanceID: bcb729fc-0989-40ac-a279-4fb2f0900b59
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+09/12/2017 11:59:55
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute(Expression expr)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at SitefinityWebApp.Mvc.Controllers.CustomCarouselController.Index() in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\Mvc\Controllers\CustomCarouselController.cs:line 35
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 4:59:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-131497090040073105
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/index/Action/Edit
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Query execution found more than one element.
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-6-131497090040073105
+
+ProcessId: 2676
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28516
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 5:00:04 PM
+
+Message: HandlingInstanceID: 0f494c8b-856d-498b-97ee-715cae44bd3c
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+09/12/2017 12:00:04
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute(Expression expr)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at SitefinityWebApp.Mvc.Controllers.CustomCarouselController.Index() in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\Mvc\Controllers\CustomCarouselController.cs:line 35
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 5:00:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-131497090040073105
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/index/Action/Edit
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Query execution found more than one element.
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-6-131497090040073105
+
+ProcessId: 2676
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23764
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 5:00:13 PM
+
+Message: HandlingInstanceID: a79785df-375c-4d41-bc20-e7df632be6f2
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+09/12/2017 12:00:13
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute(Expression expr)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at SitefinityWebApp.Mvc.Controllers.CustomCarouselController.Index() in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\Mvc\Controllers\CustomCarouselController.cs:line 35
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 5:00:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-131497090040073105
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/index/Action/Edit
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Query execution found more than one element.
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-6-131497090040073105
+
+ProcessId: 2676
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23764
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 5:00:28 PM
+
+Message: HandlingInstanceID: 7ab8b81a-3180-46f1-83e7-051902964e02
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+09/12/2017 12:00:28
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute(Expression expr)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at SitefinityWebApp.Mvc.Controllers.CustomCarouselController.Index() in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\Mvc\Controllers\CustomCarouselController.cs:line 35
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 5:00:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-131497090040073105
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : SMOOTHFUSION\ccarlson
+Requested URL : http://localhost:60876/index/Action/Edit
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Query execution found more than one element.
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-6-131497090040073105
+
+ProcessId: 2676
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23764
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 5:15:14 PM
+
+Message: HandlingInstanceID: 75ff192b-f813-4e8f-923b-f3f6e6a9e4a0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 12:15:14
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 5:15:14 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131497099521680185
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-1-131497099521680185
+
+ProcessId: 38876
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41000
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 5:52:01 PM
+
+Message: HandlingInstanceID: dea540b7-5452-4862-829f-209f6d668b8e
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+09/12/2017 12:52:01
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute(Expression expr)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at SitefinityWebApp.Mvc.Controllers.CustomCarouselController.Index() in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\Mvc\Controllers\CustomCarouselController.cs:line 35
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 5:52:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-131497122335352902
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/index/Action/Edit
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Query execution found more than one element.
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-4-131497122335352902
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12196
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 5:57:16 PM
+
+Message: HandlingInstanceID: b79691a8-662c-45d3-b882-3d99f22e9f80
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/12/2017 12:57:15
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.2.822.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Update failed: Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Row: GenericOID@fdcfef23 UserActivity user_id=83a020c8-f3ee-4d4a-9420-b09df2c875bf
+UPDATE [sf_lic_user_activity] SET [last_activity_date] = ? WHERE [user_id] = ?
+(set event logging to all to see parameter values) Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Source : Telerik.Sitefinity
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Connection has been closed. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction(System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.TransactionManager.CommitTransaction(String transactionName)
+   at Telerik.Sitefinity.Security.UserActivityBuffer.FlushInDatabase(IDictionary`2 userActivitiesInternal)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 5:57:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-5-131497123432142587
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2016.2.822.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Connection has been closed.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 2004344493
+	ArrayBindIndex : -1
+	Number : 2004344493
+	ObjectId : 
+	Description : Connection has been closed.
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Int32 executeUpdate(System.Nullable`1[System.Int32])
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeUpdate(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeUpdate(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.RelationalStorageManager.generateUpdates(OID oid, Int32 index, ClassMetaData cmd, PersistGraph graph, Int32[] fieldNos, Boolean haveNewObjects, CharBuf s, BatchControlInfo batchControl, Boolean previousInserts)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 4ab71665-7db5-4e42-9bdb-4fb6af42cabb
+		Class : 11
+		LineNumber : 0
+		Number : -2
+		Procedure : 
+		Server : devsql0
+		State : 0
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+		   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+		   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+		   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+		   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+		   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+		   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+		   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+		   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+		   at OpenAccessRuntime.CommandWrapper.ExecuteReader(CommandBehavior behavior)
+
+			Inner Exception
+			---------------
+			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : The wait operation timed out
+			Source : 
+			Help link : 
+			NativeErrorCode : 258
+			ErrorCode : -2147467259
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : 
+			HResult : -2147467259
+			Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-5-131497123432142587
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 7:26:23 PM
+
+Message: HandlingInstanceID: 39d03272-2400-43f8-ba26-7acf04ad5e0d
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+09/12/2017 14:26:23
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not load file or assembly 'OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD' or one of its dependencies. The system cannot find the file specified.
+Source : mscorlib
+Help link : 
+FileName : OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD
+FusionLog : === Pre-bind state information ===
+LOG: DisplayName = OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD
+ (Partial)
+WRN: Partial binding information was supplied for an assembly:
+WRN: Assembly Name: OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD | Domain ID: 16
+WRN: A partial bind occurs when only part of the assembly display name is provided.
+WRN: This might result in the binder loading an incorrect assembly.
+WRN: It is recommended to provide a fully specified textual identity for the assembly,
+WRN: that consists of the simple name, version, culture, and public key token.
+WRN: See whitepaper http://go.microsoft.com/fwlink/?LinkId=109270 for more information and common solutions to this issue.
+LOG: Appbase = file:///C:/Users/ccarlson/Desktop/Sitefinity/SitefinityProject/
+LOG: Initial PrivatePath = C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\bin
+Calling assembly : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\web.config
+LOG: Using host configuration file: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/c05da4a4/f1cc4d54/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/c05da4a4/f1cc4d54/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD.DLL.
+LOG: Attempting download of new URL file:///C:/Users/ccarlson/Desktop/Sitefinity/SitefinityProject/bin/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD.DLL.
+LOG: Attempting download of new URL file:///C:/Users/ccarlson/Desktop/Sitefinity/SitefinityProject/bin/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/c05da4a4/f1cc4d54/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD.EXE.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/c05da4a4/f1cc4d54/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD.EXE.
+LOG: Attempting download of new URL file:///C:/Users/ccarlson/Desktop/Sitefinity/SitefinityProject/bin/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD.EXE.
+LOG: Attempting download of new URL file:///C:/Users/ccarlson/Desktop/Sitefinity/SitefinityProject/bin/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD/OpenAccess20170912142448891_A4613A2E0E20CF5DB1039F54C8605F07642B7BCD.EXE.
+
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+HResult : -2147024894
+Stack Trace :    at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.StripGenericArugmentVersioning(String typeName)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name)
+   at Telerik.Sitefinity.RelatedData.RelatedDataHelper.GetRelatedItems(String parentItemTypeName, String parentItemProviderName, Guid parentItemId, String fieldName, Nullable`1 status, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount, String childItemTypeName, String childItemProviderName)
+   at Telerik.Sitefinity.RelatedData.RelatedDataHelper.GetRelatedItems(String parentItemTypeName, Guid parentItemId, String parentItemProviderName, String fieldName, Nullable`1 status)
+   at Telerik.Sitefinity.RelatedData.RelatedDataExtensions.GetRelatedItems[T](Object item, String fieldName)
+   at SitefinityWebApp.Custom.Helpers.CarouselHelper.GetImageItemsFromCarouselID(DynamicContent carousel) in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\Custom\Helpers\CarouselHelper.cs:line 28
+   at SitefinityWebApp.Mvc.Controllers.CustomCarouselController.Index() in C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\Mvc\Controllers\CustomCarouselController.cs:line 37
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 7:26:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-8-131497178695801826
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/index/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-8-131497178695801826
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41444
+
+Extended Properties: 
+----------------------------------------

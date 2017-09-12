@@ -1,0 +1,15 @@
+----------------------------------------
+Timestamp: 9/12/2017 8:03:10 PM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 8:03:10 PM
+
+Message: -- dropping table [carousels_carouselimages]
+DROP TABLE [carousels_carouselimages]
+
+
+----------------------------------------

@@ -1,0 +1,77 @@
+﻿@using System.Web.Mvc;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.UI.MVC;
+@using Telerik.Sitefinity.Services;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <title></title>
+    @Html.Section("head")
+    <link rel="stylesheet" type="text/css" href="~/Custom/Content/Styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="~/Custom/Content/Styles/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
+    <link rel='shortcut icon' type='image/x-icon' href="~/Custom/Content/Images/HPE_logox16.png" />
+</head>
+<body class="layout-body">
+    @Html.Section("top")
+    <div class="header-wrapper">
+        
+        <div class="content-panel header-text">
+            <a class="logo-image"  href="">
+
+            <img src="~/Custom/Content/Images/HPE_logo.png" alt="HPE Logo"/>
+            </a>
+            <div class="title">
+            <span>Title</span>
+
+            </div>
+
+        </div>
+        
+    </div>
+    <div class="layout-wrapper">
+        @*@RenderBody()*@
+        @Html.SfPlaceHolder("Contentplaceholder1")
+    </div>
+    <footer class="footer content-wrapper">
+        <div>
+
+            <span>© Copyright 2017 Hewlett Packard Enterprise Development LP</span>
+
+
+            <span class="divider">|</span>
+
+            <br />
+
+            <a href="https://www.hpe.com/us/en/legal/privacy.html" target="_blank">Privacy Statement</a>
+
+
+            <span class="divider">|</span>
+
+            <a href="https://psnow.ext.hpe.com/doc/a00017079enw.pdf" target="_blank">Terms of Use</a>
+
+        </div>
+    </footer>
+
+    @if (!SystemManager.IsDesignMode)
+    {
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+                    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+                    crossorigin="anonymous"></script>
+
+            <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+            <script type="text/javascript" src="~/ResourcePackages/SmoothFusion/MVC/Scripts/site.js"></script>
+    }
+    
+    
+</body>
+</html>
