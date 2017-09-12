@@ -351,3 +351,6 @@ iframe {
     width:20%;
     margin: 0 auto;
 }
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}

@@ -3,23 +3,24 @@
 
 @model SitefinityWebApp.Mvc.Models.CustomCarouselModel
 
+<div class="content-wrapper">
+    <div class="content-panel main-content">
 
-<div class="content-panel main-content">
-
-    <div class="content-head">
-        <div class="car-wrapper">
-            @foreach (var image in Model.Images)
+        <div class="content-head">
+            <div class="car-wrapper">
+                @foreach (var image in Model.Images)
             {
-                <div class="car-row">
-                    <a>
-                        <img src="@image.Url" alt="@image.Title" />
-                        @image.Title
+                    <div class="car-row">
+                        <a>
+                            <img src="@image.Url" alt="@image.Title" />
+                            @image.Title
                     </a>
                 </div>
 
-            }
-        </div>
+                }
+            </div>
 
+        </div>
     </div>
 </div>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>

@@ -2193,3 +2193,553 @@ Win32 ThreadId:25168
 
 Extended Properties: 
 ----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:07:18 PM
+
+Message: HandlingInstanceID: c92b2999-9491-479a-b35a-d22aa1ace589
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:07:18
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:07:18 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:36656
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:07:23 PM
+
+Message: HandlingInstanceID: d0ec5cf2-ce88-452a-813a-c87b7f9e26c9
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:07:23
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:07:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5112
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:08:23 PM
+
+Message: HandlingInstanceID: f2d017bd-0f9b-4131-9ddd-a07c6c5caf87
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:08:23
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:08:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:18956
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:08:29 PM
+
+Message: HandlingInstanceID: 5d2c04e9-8eec-42df-96ef-c8a782e77766
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:08:29
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:08:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:33508
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:09:19 PM
+
+Message: HandlingInstanceID: fa20fd10-60ec-44de-8812-0ca08cbb08c1
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:09:19
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:09:19 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5756
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:09:26 PM
+
+Message: HandlingInstanceID: c67366d4-ab7c-4514-8257-884446ca8ee2
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:09:26
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:09:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7532
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:09:39 PM
+
+Message: HandlingInstanceID: 6e1988f6-4f6c-4f50-ba3d-b7fc171fe6de
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:09:39
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:09:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:31980
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:09:45 PM
+
+Message: HandlingInstanceID: 440758ce-32e7-4dfd-a3d5-00125caa2cef
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:09:45
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:09:45 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23512
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:10:00 PM
+
+Message: HandlingInstanceID: 40bf4c39-10ae-4373-9c20-eb52e727fff4
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:10:00
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:10:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4544
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/12/2017 9:10:43 PM
+
+Message: HandlingInstanceID: 21e2cbd1-b68d-4a5e-9ee2-2af46c464198
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/12/2017 16:10:43
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : SPARE-20170524
+TimeStamp : 9/12/2017 9:10:43 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6502.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-32-131497237291182720
+ThreadIdentity : ccarlson@smoothfusion.com
+WindowsIdentity : IIS APPPOOL\SitefinityTraining
+Requested URL : http://localhost:8081/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/Angular/angular-sanitize.min.js.map
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SPARE-20170524
+
+App Domain: /LM/W3SVC/2/ROOT-32-131497237291182720
+
+ProcessId: 9324
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:40556
+
+Extended Properties: 
+----------------------------------------
