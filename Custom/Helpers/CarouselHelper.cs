@@ -7,6 +7,7 @@ using Telerik.Sitefinity;
 using Telerik.Sitefinity.Data;
 using Telerik.Sitefinity.DynamicModules;
 using Telerik.Sitefinity.DynamicModules.Model;
+using Telerik.Sitefinity.GenericContent.Model;
 using Telerik.Sitefinity.Model;
 using Telerik.Sitefinity.RelatedData;
 using Telerik.Sitefinity.Utilities.TypeConverters;
@@ -19,15 +20,19 @@ namespace SitefinityWebApp.Custom.Helpers
         // Demonstrates how child content items can be retrieved
         public List<Telerik.Sitefinity.Libraries.Model.Image> GetImageItemsFromCarouselID(DynamicContent carousel)
         {
-            var imageUrls = new List<Telerik.Sitefinity.Libraries.Model.Image>();
+            var images = new List<Telerik.Sitefinity.Libraries.Model.Image>();
             if (carousel != null)
             {
                 var relatedImages = carousel.GetRelatedItems<Telerik.Sitefinity.Libraries.Model.Image>("Images").ToList();
 
-                imageUrls.AddRange(relatedImages);
+                images.AddRange(relatedImages);
             }
 
-            return imageUrls;
+            return images;
+        }
+        public List<Telerik.Sitefinity.Libraries.Model.Image> GetImagesByAlbumFluentAPI(string libraryName)
+        {
+            return App.WorkWith().Images().Where(a => a.Parent.Title == libraryName && a.Status == ContentLifecycleStatus.Live).Get()?.ToList();
         }
         public DynamicModuleManager DynamicModuleManager
         {

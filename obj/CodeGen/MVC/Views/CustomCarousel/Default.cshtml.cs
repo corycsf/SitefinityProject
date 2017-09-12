@@ -50,15 +50,19 @@ namespace ASP
         {
 WriteLiteral("\r\n");
 
-WriteLiteral("\r\n<div");
+WriteLiteral("<div");
+
+WriteLiteral(" class=\"content-wrapper\"");
+
+WriteLiteral(">\r\n    <div");
 
 WriteLiteral(" class=\"content-panel main-content\"");
 
-WriteLiteral(">\r\n\r\n    <div");
+WriteLiteral(">\r\n\r\n        <div");
 
 WriteLiteral(" class=\"content-head\"");
 
-WriteLiteral(">\r\n        <div");
+WriteLiteral(">\r\n            <div");
 
 WriteLiteral(" class=\"car-wrapper\"");
 
@@ -66,51 +70,51 @@ WriteLiteral(">\r\n");
 
             
             #line 11 "..\..\MVC\Views\CustomCarousel\Default.cshtml"
-            
+                
             
             #line default
             #line hidden
             
             #line 11 "..\..\MVC\Views\CustomCarousel\Default.cshtml"
-             foreach (var image in Model.Images)
+                 foreach (var image in Model.Images)
             {
 
             
             #line default
             #line hidden
-WriteLiteral("                <div");
+WriteLiteral("                    <div");
 
 WriteLiteral(" class=\"car-row\"");
 
-WriteLiteral(">\r\n                    <a>\r\n                        <img");
+WriteLiteral(">\r\n                        <a>\r\n                            <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 411), Tuple.Create("\"", 427)
+WriteAttribute("src", Tuple.Create(" src=\"", 468), Tuple.Create("\"", 484)
             
             #line 15 "..\..\MVC\Views\CustomCarousel\Default.cshtml"
-, Tuple.Create(Tuple.Create("", 417), Tuple.Create<System.Object, System.Int32>(image.Url
+, Tuple.Create(Tuple.Create("", 474), Tuple.Create<System.Object, System.Int32>(image.Url
             
             #line default
             #line hidden
-, 417), false)
+, 474), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 428), Tuple.Create("\"", 446)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 485), Tuple.Create("\"", 503)
             
             #line 15 "..\..\MVC\Views\CustomCarousel\Default.cshtml"
-, Tuple.Create(Tuple.Create("", 434), Tuple.Create<System.Object, System.Int32>(image.Title
+, Tuple.Create(Tuple.Create("", 491), Tuple.Create<System.Object, System.Int32>(image.Title
             
             #line default
             #line hidden
-, 434), false)
+, 491), false)
 );
 
 WriteLiteral(" />\r\n");
 
-WriteLiteral("                        ");
+WriteLiteral("                            ");
 
             
             #line 16 "..\..\MVC\Views\CustomCarousel\Default.cshtml"
-                   Write(image.Title);
+                       Write(image.Title);
 
             
             #line default
@@ -120,12 +124,12 @@ WriteLiteral("\r\n                    </a>\r\n                </div>\r\n");
             
             #line 19 "..\..\MVC\Views\CustomCarousel\Default.cshtml"
 
-            }
+                }
 
             
             #line default
             #line hidden
-WriteLiteral("        </div>\r\n\r\n    </div>\r\n</div>\r\n<script");
+WriteLiteral("            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n<script");
 
 WriteLiteral(" type=\"text/javascript\"");
 
@@ -135,9 +139,9 @@ WriteLiteral("></script>\r\n<script");
 
 WriteLiteral(" type=\"text/javascript\"");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 724), Tuple.Create("\"", 781)
-, Tuple.Create(Tuple.Create("", 730), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/SmoothFusion/MVC/Scripts/site.js")
-, 730), false)
+WriteAttribute("src", Tuple.Create(" src=\"", 809), Tuple.Create("\"", 866)
+, Tuple.Create(Tuple.Create("", 815), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/SmoothFusion/MVC/Scripts/site.js")
+, 815), false)
 );
 
 WriteLiteral("></script>");
