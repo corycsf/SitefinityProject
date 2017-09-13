@@ -135,7 +135,16 @@ WriteLiteral(" type=\"text/javascript\"");
 
 WriteLiteral(" src=\"//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js\"");
 
-WriteLiteral("></script>\r\n<s");
+WriteLiteral("></script>\r\n<script");
+
+WriteLiteral(" type=\"text/javascript\"");
+
+WriteAttribute("src", Tuple.Create(" src=\"", 821), Tuple.Create("\"", 878)
+, Tuple.Create(Tuple.Create("", 827), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/SmoothFusion/MVC/Scripts/site.js")
+, 827), false)
+);
+
+WriteLiteral("></script>");
 
         }
     }

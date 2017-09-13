@@ -25,4 +25,3 @@ C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\bin\System.Web.WebPages.R
 C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\obj\Debug\SitefinityWebApp.csproj.CoreCompileInputs.cache
 C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\obj\Debug\SitefinityWebApp.dll
 C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\obj\Debug\SitefinityWebApp.pdb
-C:\Users\ccarlson\Desktop\Sitefinity\SitefinityProject\obj\Debug\SitefinityWebApp.csprojResolveAssemblyReference.cache

@@ -26,7 +26,7 @@ namespace SitefinityWebApp.Mvc.Controllers
             else
             {
                 var helper = new CarouselHelper();
-                var images = helper.GetImagesByAlbumFluentAPI(this.LibraryName);
+                var images = helper.GetImagesByAlbumFluentAPI(this.LibraryName).OrderBy(x=> x.Ordinal).ToList();
                 model.Images = images;
             }
             
