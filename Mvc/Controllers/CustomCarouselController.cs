@@ -25,12 +25,10 @@ namespace SitefinityWebApp.Mvc.Controllers
         {
             var helper = new CarouselHelper();
 
-            var carousels = helper.RetrieveCollectionOfItem(_carouselType).ToList();
+            var carousel = helper.RetrieveCollectionOfItem(_carouselType).FirstOrDefault();
             var model = new CustomCarouselModel();
             
-            model.Carousels = carousels;
-            
-            model.Images = helper.GetImageItemsFromCarouselID(carousels.FirstOrDefault(x=> x.GetValue("Title").ToString() == this.CarouselTitle)).OrderBy(x => x.Ordinal).ToList();
+            model.Images = helper.GetImageItemsFromCarouselID(carousel).OrderBy(x => x.Ordinal).ToList();
 
             return View("Default", model);
         }

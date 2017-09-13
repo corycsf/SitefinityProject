@@ -1412,6 +1412,9 @@
     <None Include="packages.config" />
     <Content Include="ResourcePackages\SmoothFusion\MVC\Views\Layouts\customLayout.cshtml" />
     <Content Include="ResourcePackages\SmoothFusion\razorgenerator.directives" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\SitefinityTraining.pubxml" />
+    <Content Include="ResourcePackages\SmoothFusion\MVC\Views\ImageGallery\List.SimpleList.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
