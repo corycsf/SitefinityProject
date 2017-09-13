@@ -99,7 +99,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span>\n    </h2>\n    <h1>HOODY!</h1>\n    <span");
+WriteLiteral("</span>\n    </h2>\n    <span");
 
 WriteLiteral(" class=\"text-muted\"");
 
@@ -108,7 +108,7 @@ WriteLiteral(">\n");
 WriteLiteral("        ");
 
             
-            #line 14 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 13 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
    Write(Model.Item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt"));
 
             
@@ -119,7 +119,7 @@ WriteLiteral("\n");
 WriteLiteral("        ");
 
             
-            #line 15 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 14 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
    Write(Html.Resource("By"));
 
             
@@ -130,7 +130,7 @@ WriteLiteral("\n");
 WriteLiteral("        ");
 
             
-            #line 16 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 15 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
    Write(DataResolver.Resolve(@Model.Item.DataItem, "Author", null));
 
             
@@ -141,7 +141,7 @@ WriteLiteral("\n    </span>\n");
 WriteLiteral("    ");
 
             
-            #line 18 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 17 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
 Write(Html.CommentsCount(string.Empty, @Model.Item.DataItem));
 
             
@@ -150,7 +150,7 @@ Write(Html.CommentsCount(string.Empty, @Model.Item.DataItem));
 WriteLiteral("\n\n    <div ");
 
             
-            #line 20 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 19 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
     Write(Html.InlineEditingFieldAttributes("Description", "LongText"));
 
             
@@ -159,7 +159,7 @@ WriteLiteral("\n\n    <div ");
 WriteLiteral(">");
 
             
-            #line 20 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 19 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
                                                                   Write(Html.Raw(Model.Item.Fields.Description));
 
             
@@ -167,30 +167,30 @@ WriteLiteral(">");
             #line hidden
 WriteLiteral("</div>\n\n    <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 943), Tuple.Create("\"", 974)
+WriteAttribute("src", Tuple.Create(" src=\"", 923), Tuple.Create("\"", 954)
             
-            #line 22 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 949), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MediaUrl)
+            #line 21 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+, Tuple.Create(Tuple.Create("", 929), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MediaUrl)
             
             #line default
             #line hidden
-, 949), false)
+, 929), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\'", 975), Tuple.Create("\'", 1079)
+WriteAttribute("alt", Tuple.Create(" alt=\'", 955), Tuple.Create("\'", 1059)
             
-            #line 22 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 981), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(Model.Item.Fields.AlternativeText, @"[^\w\d_-]", "")
+            #line 21 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+, Tuple.Create(Tuple.Create("", 961), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(Model.Item.Fields.AlternativeText, @"[^\w\d_-]", "")
             
             #line default
             #line hidden
-, 981), false)
+, 961), false)
 );
 
 WriteLiteral("\n                 ");
 
             
-            #line 23 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 22 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
             Write(Html.GetWidthAttributeIfExists(Model.Width));
 
             
@@ -201,7 +201,7 @@ WriteLiteral("\n");
 WriteLiteral("                 ");
 
             
-            #line 24 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 23 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
             Write(Html.GetHeightAttributeIfExists(Model.Height));
 
             
@@ -210,13 +210,13 @@ WriteLiteral("                 ");
 WriteLiteral(" />\n\n");
 
             
-            #line 26 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 25 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
     
             
             #line default
             #line hidden
             
-            #line 26 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 25 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
      if (ViewBag.ItemIndex != null)
     {
 
@@ -230,13 +230,13 @@ WriteLiteral(" class=\"m-bottom-lg text-center\"");
 WriteLiteral(">\n");
 
             
-            #line 29 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 28 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
             
             
             #line default
             #line hidden
             
-            #line 29 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 28 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
               
                 var previousItemIndex = ViewBag.ItemIndex == 1 ? Model.TotalItemsCount : ViewBag.ItemIndex - 1;
                 var nextItemIndex = ViewBag.ItemIndex == Model.TotalItemsCount ? 1 : ViewBag.ItemIndex + 1;
@@ -247,13 +247,13 @@ WriteLiteral(">\n");
 WriteLiteral("\n\n");
 
             
-            #line 34 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 33 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
             
             
             #line default
             #line hidden
             
-            #line 34 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 33 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
              if (Model.PreviousItem != null) 
             {
 
@@ -264,14 +264,14 @@ WriteLiteral("                <a");
 
 WriteLiteral(" class=\"pull-left\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 1645), Tuple.Create("\"", 1794)
+WriteAttribute("href", Tuple.Create(" href=\"", 1625), Tuple.Create("\"", 1774)
             
-            #line 36 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 1652), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.PreviousItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, previousItemIndex)
+            #line 35 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+, Tuple.Create(Tuple.Create("", 1632), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.PreviousItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, previousItemIndex)
             
             #line default
             #line hidden
-, 1652), false)
+, 1632), false)
 );
 
 WriteLiteral(">\n");
@@ -279,7 +279,7 @@ WriteLiteral(">\n");
 WriteLiteral("                    ");
 
             
-            #line 37 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 36 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
                Write(Html.Resource("PreviousImage"));
 
             
@@ -288,7 +288,7 @@ WriteLiteral("                    ");
 WriteLiteral("\n                </a>\n");
 
             
-            #line 39 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 38 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
             }
 
             
@@ -297,13 +297,13 @@ WriteLiteral("\n                </a>\n");
 WriteLiteral("\n");
 
             
-            #line 41 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 40 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
             
             
             #line default
             #line hidden
             
-            #line 41 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 40 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
              if (Model.PreviousItem != null || @Model.NextItem != null)
             {
                 string.Format(@Html.Resource("IndexOfTotal"), @ViewBag.ItemIndex, @Model.TotalItemsCount);
@@ -315,13 +315,13 @@ WriteLiteral("\n");
 WriteLiteral("\n");
 
             
-            #line 46 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 45 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
             
             
             #line default
             #line hidden
             
-            #line 46 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 45 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
              if (Model.NextItem != null) 
             {
 
@@ -332,14 +332,14 @@ WriteLiteral("                <a");
 
 WriteLiteral(" class=\"pull-right\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2186), Tuple.Create("\"", 2327)
+WriteAttribute("href", Tuple.Create(" href=\"", 2166), Tuple.Create("\"", 2307)
             
-            #line 48 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 2193), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.NextItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, nextItemIndex)
+            #line 47 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+, Tuple.Create(Tuple.Create("", 2173), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.NextItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, nextItemIndex)
             
             #line default
             #line hidden
-, 2193), false)
+, 2173), false)
 );
 
 WriteLiteral(">\n");
@@ -347,7 +347,7 @@ WriteLiteral(">\n");
 WriteLiteral("                    ");
 
             
-            #line 49 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 48 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
                Write(Html.Resource("NextImage"));
 
             
@@ -356,7 +356,7 @@ WriteLiteral("                    ");
 WriteLiteral("\n                </a>\n");
 
             
-            #line 51 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 50 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
             }
 
             
@@ -365,21 +365,21 @@ WriteLiteral("\n                </a>\n");
 WriteLiteral("        </div>\n");
 
             
-            #line 53 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 52 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
 
         
             
             #line default
             #line hidden
             
-            #line 54 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 53 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
    Write(Html.ActionLink(Html.Resource("BackToAllImages"), "Index"));
 
             
             #line default
             #line hidden
             
-            #line 54 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 53 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
                                                                    
     }
 
@@ -389,13 +389,13 @@ WriteLiteral("        </div>\n");
 WriteLiteral("\n");
 
             
-            #line 57 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 56 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
     
             
             #line default
             #line hidden
             
-            #line 57 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 56 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
               
         if (Model.EnableSocialSharing)
         {
@@ -405,14 +405,14 @@ WriteLiteral("\n");
             #line default
             #line hidden
             
-            #line 61 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 60 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
        Write(Html.SocialShareOptions(item));
 
             
             #line default
             #line hidden
             
-            #line 61 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 60 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
                                           ;
         }
     
@@ -424,7 +424,7 @@ WriteLiteral("\n\n");
 WriteLiteral("    ");
 
             
-            #line 65 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
+            #line 64 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
 Write(Html.CommentsList(@Model.Item.DataItem));
 
             

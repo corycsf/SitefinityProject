@@ -151,24 +151,25 @@ Write(ImageTag());
             #line hidden
             
             #line 12 "..\..MVC\Views\Image\Image.cshtml"
-                
-} 
-else 
-{ 
+               
+}
+else
+{
+    
 
             
             #line default
             #line hidden
 WriteLiteral("    <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 557), Tuple.Create("\"", 587)
+WriteAttribute("href", Tuple.Create(" href=\"", 563), Tuple.Create("\"", 593)
             
-            #line 16 "..\..MVC\Views\Image\Image.cshtml"
-, Tuple.Create(Tuple.Create("", 564), Tuple.Create<System.Object, System.Int32>(Model.LinkedContentUrl
+            #line 17 "..\..MVC\Views\Image\Image.cshtml"
+, Tuple.Create(Tuple.Create("", 570), Tuple.Create<System.Object, System.Int32>(Model.LinkedContentUrl
             
             #line default
             #line hidden
-, 564), false)
+, 570), false)
 );
 
 WriteLiteral("> \n");
@@ -176,7 +177,7 @@ WriteLiteral("> \n");
 WriteLiteral("        ");
 
             
-            #line 17 "..\..MVC\Views\Image\Image.cshtml"
+            #line 18 "..\..MVC\Views\Image\Image.cshtml"
    Write(ImageTag());
 
             
@@ -185,7 +186,7 @@ WriteLiteral("        ");
 WriteLiteral(" \n    </a> \n");
 
             
-            #line 19 "..\..MVC\Views\Image\Image.cshtml"
+            #line 20 "..\..MVC\Views\Image\Image.cshtml"
 }
             
             #line default

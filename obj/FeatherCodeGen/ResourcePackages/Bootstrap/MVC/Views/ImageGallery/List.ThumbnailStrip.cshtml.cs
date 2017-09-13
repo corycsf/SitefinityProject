@@ -126,10 +126,10 @@ WriteLiteral("\n\n<div");
 
 WriteLiteral(" class=\"sf-Gallery sf-Gallery--strip\"");
 
-WriteLiteral(">\n    <h1>HOODY!</h1>\n");
+WriteLiteral(">\n");
 
             
-            #line 31 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 30 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
  if (hasItems)
 {
 		if (isBackendDesignMode)
@@ -145,7 +145,7 @@ WriteLiteral(" class=\"js-Gallery-title\"");
 WriteLiteral(">");
 
             
-            #line 35 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 34 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
                             Write(firstItem.DataItem.Title);
 
             
@@ -154,7 +154,7 @@ WriteLiteral(">");
 WriteLiteral("</h2>\n");
 
             
-            #line 36 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 35 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 
 
             
@@ -167,7 +167,7 @@ WriteLiteral(" class=\"js-Gallery-description\"");
 WriteLiteral(">");
 
             
-            #line 37 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 36 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
                                  Write(firstItem.DataItem.Description);
 
             
@@ -176,7 +176,7 @@ WriteLiteral(">");
 WriteLiteral("</p>\n");
 
             
-            #line 38 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 37 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 
 
             
@@ -189,7 +189,7 @@ WriteLiteral(" class=\"js-Gallery-index\"");
 WriteLiteral(">1</span> of ");
 
             
-            #line 39 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 38 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
                                                Write(Model.Items.Count());
 
             
@@ -198,7 +198,7 @@ WriteLiteral(">1</span> of ");
 WriteLiteral("</div>\n");
 
             
-            #line 40 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 39 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 
 
             
@@ -226,40 +226,40 @@ WriteLiteral(" class=\"glyphicon glyphicon-chevron-right\"");
 
 WriteLiteral("></span></a>\n        <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 1523), Tuple.Create("\"", 1559)
+WriteAttribute("src", Tuple.Create(" src=\"", 1503), Tuple.Create("\"", 1539)
             
-            #line 44 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 1529), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.MediaUrl
+            #line 43 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+, Tuple.Create(Tuple.Create("", 1509), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.MediaUrl
             
             #line default
             #line hidden
-, 1529), false)
+, 1509), false)
 );
 
-WriteAttribute("title", Tuple.Create(" title=\"", 1560), Tuple.Create("\"", 1593)
+WriteAttribute("title", Tuple.Create(" title=\"", 1540), Tuple.Create("\"", 1573)
             
-            #line 44 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 1568), Tuple.Create<System.Object, System.Int32>(firstItem.DataItem.Title
+            #line 43 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+, Tuple.Create(Tuple.Create("", 1548), Tuple.Create<System.Object, System.Int32>(firstItem.DataItem.Title
             
             #line default
             #line hidden
-, 1568), false)
+, 1548), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 1594), Tuple.Create("\"", 1635)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 1574), Tuple.Create("\"", 1615)
             
-            #line 44 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-         , Tuple.Create(Tuple.Create("", 1600), Tuple.Create<System.Object, System.Int32>(firstItem.DataItem.AlternativeText
+            #line 43 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+         , Tuple.Create(Tuple.Create("", 1580), Tuple.Create<System.Object, System.Int32>(firstItem.DataItem.AlternativeText
             
             #line default
             #line hidden
-, 1600), false)
+, 1580), false)
 );
 
 WriteLiteral(" \n                  ");
 
             
-            #line 45 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 44 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
              Write(Html.GetWidthAttributeIfExists(thumbnailViewModel.Width));
 
             
@@ -270,7 +270,7 @@ WriteLiteral("\n");
 WriteLiteral("                  ");
 
             
-            #line 46 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 45 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
              Write(Html.GetHeightAttributeIfExists(thumbnailViewModel.Height));
 
             
@@ -279,7 +279,7 @@ WriteLiteral("                  ");
 WriteLiteral(" />\n\n\t</p>\n");
 
             
-            #line 49 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 48 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 		}
 		else
 		{
@@ -294,7 +294,7 @@ WriteLiteral(" class=\"js-Gallery-title\"");
 WriteLiteral("></h2>\n");
 
             
-            #line 53 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 52 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 
 
             
@@ -307,7 +307,7 @@ WriteLiteral(" class=\"js-Gallery-description\"");
 WriteLiteral("></p>\n");
 
             
-            #line 55 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 54 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 
 
             
@@ -320,7 +320,7 @@ WriteLiteral(" class=\"js-Gallery-index\"");
 WriteLiteral("></span> of ");
 
             
-            #line 56 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 55 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
                                               Write(Model.Items.Count());
 
             
@@ -329,7 +329,7 @@ WriteLiteral("></span> of ");
 WriteLiteral("</div>\n");
 
             
-            #line 57 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 56 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 
 
             
@@ -358,7 +358,7 @@ WriteLiteral(" class=\"glyphicon glyphicon-chevron-right\"");
 WriteLiteral("></span></a>\n\t\t<img />\n\t</p>\n");
 
             
-            #line 63 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 62 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 	}
 }
 
@@ -376,13 +376,13 @@ WriteLiteral(" class=\"sf-Gallery-thumbs js-Gallery-thumbs\"");
 WriteLiteral(">\n");
 
             
-            #line 70 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 69 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 		
             
             #line default
             #line hidden
             
-            #line 70 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 69 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
           int itemIndex = 0;
             
             #line default
@@ -390,13 +390,13 @@ WriteLiteral(">\n");
 WriteLiteral("\n");
 
             
-            #line 71 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 70 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 		
             
             #line default
             #line hidden
             
-            #line 71 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 70 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
          foreach(var item in Model.Items)
 		{
     var itemViewModel = (ThumbnailViewModel)item;
@@ -409,20 +409,20 @@ WriteLiteral("\t\t\t<a");
 
 WriteLiteral(" class=\"text-center\"");
 
-WriteAttribute("title", Tuple.Create(" title=\"", 2490), Tuple.Create("\"", 2516)
+WriteAttribute("title", Tuple.Create(" title=\"", 2470), Tuple.Create("\"", 2496)
             
-            #line 75 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 2498), Tuple.Create<System.Object, System.Int32>(item.Fields.Title
+            #line 74 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+, Tuple.Create(Tuple.Create("", 2478), Tuple.Create<System.Object, System.Int32>(item.Fields.Title
             
             #line default
             #line hidden
-, 2498), false)
+, 2478), false)
 );
 
 WriteLiteral(" data-item=\"");
 
             
-            #line 75 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 74 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
                                                                     Write(Html.GetSerializedImage(item));
 
             
@@ -433,7 +433,7 @@ WriteLiteral("\"");
 WriteLiteral(" data-detail-url=\"");
 
             
-            #line 75 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 74 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
                                                                                                                      Write(HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix, itemIndex));
 
             
@@ -443,30 +443,30 @@ WriteLiteral("\"");
 
 WriteLiteral(">\n        <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 2711), Tuple.Create("\"", 2746)
+WriteAttribute("src", Tuple.Create(" src=\"", 2691), Tuple.Create("\"", 2726)
             
-            #line 76 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 2717), Tuple.Create<System.Object, System.Int32>(itemViewModel.ThumbnailUrl
+            #line 75 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+, Tuple.Create(Tuple.Create("", 2697), Tuple.Create<System.Object, System.Int32>(itemViewModel.ThumbnailUrl
             
             #line default
             #line hidden
-, 2717), false)
+, 2697), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 2747), Tuple.Create("\"", 2781)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 2727), Tuple.Create("\"", 2761)
             
-            #line 76 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 2753), Tuple.Create<System.Object, System.Int32>(item.Fields.AlternativeText
+            #line 75 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+, Tuple.Create(Tuple.Create("", 2733), Tuple.Create<System.Object, System.Int32>(item.Fields.AlternativeText
             
             #line default
             #line hidden
-, 2753), false)
+, 2733), false)
 );
 
 WriteLiteral(" \n                      ");
 
             
-            #line 77 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 76 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
                  Write(Html.GetWidthAttributeIfExists(itemViewModel.Width));
 
             
@@ -477,7 +477,7 @@ WriteLiteral("\n");
 WriteLiteral("                      ");
 
             
-            #line 78 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 77 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
                  Write(Html.GetHeightAttributeIfExists(itemViewModel.Height));
 
             
@@ -486,7 +486,7 @@ WriteLiteral("                      ");
 WriteLiteral(" />\n\t\t\t</a>\n");
 
             
-            #line 80 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 79 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 			itemIndex++;
 		}
 
@@ -496,7 +496,7 @@ WriteLiteral(" />\n\t\t\t</a>\n");
 WriteLiteral("\t\t</div>\n\t</div>\n</div>\n");
 
             
-            #line 85 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 84 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
  if (Model.ShowPager)
 {
     
@@ -504,7 +504,7 @@ WriteLiteral("\t\t</div>\n\t</div>\n</div>\n");
             #line default
             #line hidden
             
-            #line 87 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 86 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
 Write(Html.Action("Index", "ContentPager", new
        {
            currentPage = Model.CurrentPage,
@@ -516,7 +516,7 @@ Write(Html.Action("Index", "ContentPager", new
             #line default
             #line hidden
             
-            #line 92 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
+            #line 91 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
          
 }
 

@@ -87,16 +87,16 @@ WriteAttribute("class", Tuple.Create(" class=\"", 348), Tuple.Create("\"", 371)
 , 356), false)
 );
 
-WriteLiteral(">\n    <h1>HOODY!</h1>\n");
+WriteLiteral(">\n");
 
             
-            #line 13 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+            #line 12 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
     
             
             #line default
             #line hidden
             
-            #line 13 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+            #line 12 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
      foreach (var item in Model.Items)
     {
         var thumbnailViewModel = (ThumbnailViewModel)item;
@@ -109,42 +109,42 @@ WriteLiteral("    <a");
 
 WriteLiteral(" class=\"text-center\"");
 
-WriteAttribute("title", Tuple.Create(" title=\"", 525), Tuple.Create("\"", 627)
+WriteAttribute("title", Tuple.Create(" title=\"", 505), Tuple.Create("\"", 607)
             
-            #line 17 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 533), Tuple.Create<System.Object, System.Int32>(string.IsNullOrEmpty(item.Fields.Description) ? item.Fields.Title : item.Fields.Description
+            #line 16 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+, Tuple.Create(Tuple.Create("", 513), Tuple.Create<System.Object, System.Int32>(string.IsNullOrEmpty(item.Fields.Description) ? item.Fields.Title : item.Fields.Description
             
             #line default
             #line hidden
-, 533), false)
+, 513), false)
 );
 
 WriteLiteral(">\n      <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 640), Tuple.Create("\"", 680)
+WriteAttribute("src", Tuple.Create(" src=\"", 620), Tuple.Create("\"", 660)
             
-            #line 18 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 646), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.ThumbnailUrl
+            #line 17 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+, Tuple.Create(Tuple.Create("", 626), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.ThumbnailUrl
             
             #line default
             #line hidden
-, 646), false)
+, 626), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\'", 681), Tuple.Create("\'", 779)
+WriteAttribute("alt", Tuple.Create(" alt=\'", 661), Tuple.Create("\'", 759)
             
-            #line 18 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 687), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(item.Fields.AlternativeText, @"[^\w\d_-]", "")
+            #line 17 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+, Tuple.Create(Tuple.Create("", 667), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(item.Fields.AlternativeText, @"[^\w\d_-]", "")
             
             #line default
             #line hidden
-, 687), false)
+, 667), false)
 );
 
 WriteLiteral(" \n                ");
 
             
-            #line 19 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+            #line 18 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
            Write(Html.GetWidthAttributeIfExists(thumbnailViewModel.Width));
 
             
@@ -155,7 +155,7 @@ WriteLiteral("\n");
 WriteLiteral("                ");
 
             
-            #line 20 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+            #line 19 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
            Write(Html.GetHeightAttributeIfExists(thumbnailViewModel.Height));
 
             
@@ -164,7 +164,7 @@ WriteLiteral("                ");
 WriteLiteral(" />\n    </a>\n");
 
             
-            #line 22 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+            #line 21 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
     }
 
             
@@ -173,7 +173,7 @@ WriteLiteral(" />\n    </a>\n");
 WriteLiteral("</div>\n");
 
             
-            #line 24 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+            #line 23 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
  if (Model.ShowPager)
 {
     
@@ -181,7 +181,7 @@ WriteLiteral("</div>\n");
             #line default
             #line hidden
             
-            #line 26 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+            #line 25 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
 Write(Html.Action("Index", "ContentPager", new
        {
            currentPage = Model.CurrentPage,
@@ -193,7 +193,7 @@ Write(Html.Action("Index", "ContentPager", new
             #line default
             #line hidden
             
-            #line 31 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
+            #line 30 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
          
 }
 
