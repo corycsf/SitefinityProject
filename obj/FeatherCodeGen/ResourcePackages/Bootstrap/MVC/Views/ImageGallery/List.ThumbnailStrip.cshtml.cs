@@ -126,7 +126,7 @@ WriteLiteral("\n\n<div");
 
 WriteLiteral(" class=\"sf-Gallery sf-Gallery--strip\"");
 
-WriteLiteral(">\n\n");
+WriteLiteral(">\n    <h1>HOODY!</h1>\n");
 
             
             #line 31 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
@@ -226,34 +226,34 @@ WriteLiteral(" class=\"glyphicon glyphicon-chevron-right\"");
 
 WriteLiteral("></span></a>\n        <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 1504), Tuple.Create("\"", 1540)
+WriteAttribute("src", Tuple.Create(" src=\"", 1523), Tuple.Create("\"", 1559)
             
             #line 44 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 1510), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.MediaUrl
+, Tuple.Create(Tuple.Create("", 1529), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.MediaUrl
             
             #line default
             #line hidden
-, 1510), false)
+, 1529), false)
 );
 
-WriteAttribute("title", Tuple.Create(" title=\"", 1541), Tuple.Create("\"", 1574)
+WriteAttribute("title", Tuple.Create(" title=\"", 1560), Tuple.Create("\"", 1593)
             
             #line 44 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 1549), Tuple.Create<System.Object, System.Int32>(firstItem.DataItem.Title
+, Tuple.Create(Tuple.Create("", 1568), Tuple.Create<System.Object, System.Int32>(firstItem.DataItem.Title
             
             #line default
             #line hidden
-, 1549), false)
+, 1568), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 1575), Tuple.Create("\"", 1616)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 1594), Tuple.Create("\"", 1635)
             
             #line 44 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-         , Tuple.Create(Tuple.Create("", 1581), Tuple.Create<System.Object, System.Int32>(firstItem.DataItem.AlternativeText
+         , Tuple.Create(Tuple.Create("", 1600), Tuple.Create<System.Object, System.Int32>(firstItem.DataItem.AlternativeText
             
             #line default
             #line hidden
-, 1581), false)
+, 1600), false)
 );
 
 WriteLiteral(" \n                  ");
@@ -276,7 +276,7 @@ WriteLiteral("                  ");
             
             #line default
             #line hidden
-WriteLiteral(" />hooooo\n\n\t</p>\n");
+WriteLiteral(" />\n\n\t</p>\n");
 
             
             #line 49 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
@@ -409,14 +409,14 @@ WriteLiteral("\t\t\t<a");
 
 WriteLiteral(" class=\"text-center\"");
 
-WriteAttribute("title", Tuple.Create(" title=\"", 2477), Tuple.Create("\"", 2503)
+WriteAttribute("title", Tuple.Create(" title=\"", 2490), Tuple.Create("\"", 2516)
             
             #line 75 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 2485), Tuple.Create<System.Object, System.Int32>(item.Fields.Title
+, Tuple.Create(Tuple.Create("", 2498), Tuple.Create<System.Object, System.Int32>(item.Fields.Title
             
             #line default
             #line hidden
-, 2485), false)
+, 2498), false)
 );
 
 WriteLiteral(" data-item=\"");
@@ -443,24 +443,24 @@ WriteLiteral("\"");
 
 WriteLiteral(">\n        <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 2698), Tuple.Create("\"", 2733)
+WriteAttribute("src", Tuple.Create(" src=\"", 2711), Tuple.Create("\"", 2746)
             
             #line 76 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 2704), Tuple.Create<System.Object, System.Int32>(itemViewModel.ThumbnailUrl
+, Tuple.Create(Tuple.Create("", 2717), Tuple.Create<System.Object, System.Int32>(itemViewModel.ThumbnailUrl
             
             #line default
             #line hidden
-, 2704), false)
+, 2717), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 2734), Tuple.Create("\"", 2768)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 2747), Tuple.Create("\"", 2781)
             
             #line 76 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 2740), Tuple.Create<System.Object, System.Int32>(item.Fields.AlternativeText
+, Tuple.Create(Tuple.Create("", 2753), Tuple.Create<System.Object, System.Int32>(item.Fields.AlternativeText
             
             #line default
             #line hidden
-, 2740), false)
+, 2753), false)
 );
 
 WriteLiteral(" \n                      ");

@@ -99,7 +99,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span>\n    </h2>\n\n    <span");
+WriteLiteral("</span>\n    </h2>\n    <h1>HOODY!</h1>\n    <span");
 
 WriteLiteral(" class=\"text-muted\"");
 
@@ -167,24 +167,24 @@ WriteLiteral(">");
             #line hidden
 WriteLiteral("</div>\n\n    <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 924), Tuple.Create("\"", 955)
+WriteAttribute("src", Tuple.Create(" src=\"", 943), Tuple.Create("\"", 974)
             
             #line 22 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 930), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MediaUrl)
+, Tuple.Create(Tuple.Create("", 949), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MediaUrl)
             
             #line default
             #line hidden
-, 930), false)
+, 949), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\'", 956), Tuple.Create("\'", 1060)
+WriteAttribute("alt", Tuple.Create(" alt=\'", 975), Tuple.Create("\'", 1079)
             
             #line 22 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 962), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(Model.Item.Fields.AlternativeText, @"[^\w\d_-]", "")
+, Tuple.Create(Tuple.Create("", 981), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(Model.Item.Fields.AlternativeText, @"[^\w\d_-]", "")
             
             #line default
             #line hidden
-, 962), false)
+, 981), false)
 );
 
 WriteLiteral("\n                 ");
@@ -264,14 +264,14 @@ WriteLiteral("                <a");
 
 WriteLiteral(" class=\"pull-left\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 1626), Tuple.Create("\"", 1775)
+WriteAttribute("href", Tuple.Create(" href=\"", 1645), Tuple.Create("\"", 1794)
             
             #line 36 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 1633), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.PreviousItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, previousItemIndex)
+, Tuple.Create(Tuple.Create("", 1652), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.PreviousItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, previousItemIndex)
             
             #line default
             #line hidden
-, 1633), false)
+, 1652), false)
 );
 
 WriteLiteral(">\n");
@@ -332,14 +332,14 @@ WriteLiteral("                <a");
 
 WriteLiteral(" class=\"pull-right\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2167), Tuple.Create("\"", 2308)
+WriteAttribute("href", Tuple.Create(" href=\"", 2186), Tuple.Create("\"", 2327)
             
             #line 48 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 2174), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.NextItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, nextItemIndex)
+, Tuple.Create(Tuple.Create("", 2193), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.NextItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, nextItemIndex)
             
             #line default
             #line hidden
-, 2174), false)
+, 2193), false)
 );
 
 WriteLiteral(">\n");

@@ -87,7 +87,7 @@ WriteAttribute("class", Tuple.Create(" class=\"", 348), Tuple.Create("\"", 371)
 , 356), false)
 );
 
-WriteLiteral(">\n\n");
+WriteLiteral(">\n    <h1>HOODY!</h1>\n");
 
             
             #line 13 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
@@ -109,36 +109,36 @@ WriteLiteral("    <a");
 
 WriteLiteral(" class=\"text-center\"");
 
-WriteAttribute("title", Tuple.Create(" title=\"", 506), Tuple.Create("\"", 608)
+WriteAttribute("title", Tuple.Create(" title=\"", 525), Tuple.Create("\"", 627)
             
             #line 17 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 514), Tuple.Create<System.Object, System.Int32>(string.IsNullOrEmpty(item.Fields.Description) ? item.Fields.Title : item.Fields.Description
+, Tuple.Create(Tuple.Create("", 533), Tuple.Create<System.Object, System.Int32>(string.IsNullOrEmpty(item.Fields.Description) ? item.Fields.Title : item.Fields.Description
             
             #line default
             #line hidden
-, 514), false)
+, 533), false)
 );
 
 WriteLiteral(">\n      <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 621), Tuple.Create("\"", 661)
+WriteAttribute("src", Tuple.Create(" src=\"", 640), Tuple.Create("\"", 680)
             
             #line 18 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 627), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.ThumbnailUrl
+, Tuple.Create(Tuple.Create("", 646), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.ThumbnailUrl
             
             #line default
             #line hidden
-, 627), false)
+, 646), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\'", 662), Tuple.Create("\'", 760)
+WriteAttribute("alt", Tuple.Create(" alt=\'", 681), Tuple.Create("\'", 779)
             
             #line 18 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 668), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(item.Fields.AlternativeText, @"[^\w\d_-]", "")
+, Tuple.Create(Tuple.Create("", 687), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(item.Fields.AlternativeText, @"[^\w\d_-]", "")
             
             #line default
             #line hidden
-, 668), false)
+, 687), false)
 );
 
 WriteLiteral(" \n                ");

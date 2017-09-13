@@ -27,7 +27,6 @@
 }
 
 <div class="sf-Gallery sf-Gallery--strip">
-
 @if (hasItems)
 {
 		if (isBackendDesignMode)
@@ -43,7 +42,7 @@
 		<a class='js-Gallery-next sf-Gallery-next'><span class="glyphicon glyphicon-chevron-right"></span></a>
         <img src="@(thumbnailViewModel.MediaUrl)" title="@firstItem.DataItem.Title" alt="@firstItem.DataItem.AlternativeText" 
                   @Html.GetWidthAttributeIfExists(thumbnailViewModel.Width)
-                  @Html.GetHeightAttributeIfExists(thumbnailViewModel.Height) />hooooo
+                  @Html.GetHeightAttributeIfExists(thumbnailViewModel.Height) />
 
 	</p>
 		}

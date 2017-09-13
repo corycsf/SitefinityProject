@@ -92,7 +92,7 @@ WriteAttribute("class", Tuple.Create(" class=\"", 392), Tuple.Create("\"", 433)
 , 418), false)
 );
 
-WriteLiteral(">\n\n");
+WriteLiteral(">\n      <h1>HOODY!</h1>\n");
 
             
             #line 14 "..\..MVC\Views\ImageGallery\List.ImageGallery.cshtml"
@@ -119,46 +119,46 @@ WriteLiteral("      <a");
 
 WriteLiteral(" class=\"text-center\"");
 
-WriteAttribute("href", Tuple.Create("\n             href=\"", 1003), Tuple.Create("\"", 1037)
+WriteAttribute("href", Tuple.Create("\n             href=\"", 1024), Tuple.Create("\"", 1058)
             
             #line 24 "..\..MVC\Views\ImageGallery\List.ImageGallery.cshtml"
-, Tuple.Create(Tuple.Create("", 1023), Tuple.Create<System.Object, System.Int32>(detailPageUrl
+, Tuple.Create(Tuple.Create("", 1044), Tuple.Create<System.Object, System.Int32>(detailPageUrl
             
             #line default
             #line hidden
-, 1023), false)
+, 1044), false)
 );
 
-WriteAttribute("title", Tuple.Create("\n       title=\"", 1038), Tuple.Create("\"", 1147)
+WriteAttribute("title", Tuple.Create("\n       title=\"", 1059), Tuple.Create("\"", 1168)
             
             #line 25 "..\..MVC\Views\ImageGallery\List.ImageGallery.cshtml"
-, Tuple.Create(Tuple.Create("", 1053), Tuple.Create<System.Object, System.Int32>(string.IsNullOrEmpty(item.Fields.Description) ? item.Fields.Title : item.Fields.Description
+, Tuple.Create(Tuple.Create("", 1074), Tuple.Create<System.Object, System.Int32>(string.IsNullOrEmpty(item.Fields.Description) ? item.Fields.Title : item.Fields.Description
             
             #line default
             #line hidden
-, 1053), false)
+, 1074), false)
 );
 
 WriteLiteral(">\n            <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 1166), Tuple.Create("\"", 1206)
+WriteAttribute("src", Tuple.Create(" src=\"", 1187), Tuple.Create("\"", 1227)
             
             #line 26 "..\..MVC\Views\ImageGallery\List.ImageGallery.cshtml"
-, Tuple.Create(Tuple.Create("", 1172), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.ThumbnailUrl
+, Tuple.Create(Tuple.Create("", 1193), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.ThumbnailUrl
             
             #line default
             #line hidden
-, 1172), false)
+, 1193), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\'", 1207), Tuple.Create("\'", 1305)
+WriteAttribute("alt", Tuple.Create(" alt=\'", 1228), Tuple.Create("\'", 1326)
             
             #line 26 "..\..MVC\Views\ImageGallery\List.ImageGallery.cshtml"
-, Tuple.Create(Tuple.Create("", 1213), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(item.Fields.AlternativeText, @"[^\w\d_-]", "")
+, Tuple.Create(Tuple.Create("", 1234), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(item.Fields.AlternativeText, @"[^\w\d_-]", "")
             
             #line default
             #line hidden
-, 1213), false)
+, 1234), false)
 );
 
 WriteLiteral("\n                      ");
@@ -190,13 +190,7 @@ WriteLiteral(" />\n      </a>\n");
             
             #line default
             #line hidden
-WriteLiteral("  </div>\n</div>\n<script");
-
-WriteLiteral(" type=\"text/javascript\"");
-
-WriteLiteral(" src=\"//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js\"");
-
-WriteLiteral("></script>\n");
+WriteLiteral("  </div>\n</div>\n\n");
 
             
             #line 34 "..\..MVC\Views\ImageGallery\List.ImageGallery.cshtml"

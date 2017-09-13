@@ -9,7 +9,6 @@
 @Html.Script(ScriptRef.JQuery, "top")
 
 <div class="@Model.CssClass">
-
     @foreach (var item in Model.Items)
     {
         var thumbnailViewModel = (ThumbnailViewModel)item;

@@ -9,10 +9,11 @@
  
 @if (string.IsNullOrEmpty(Model.LinkedContentUrl)) 
 { 
-    @ImageTag() 
-} 
-else 
-{ 
+    @ImageTag()
+}
+else
+{
+    
     <a href="@Model.LinkedContentUrl"> 
         @ImageTag() 
     </a> 
