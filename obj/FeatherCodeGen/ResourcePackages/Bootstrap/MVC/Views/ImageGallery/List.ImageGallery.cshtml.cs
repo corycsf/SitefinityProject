@@ -190,7 +190,13 @@ WriteLiteral(" />\n      </a>\n");
             
             #line default
             #line hidden
-WriteLiteral("  </div>\n</div>\n\n");
+WriteLiteral("  </div>\n</div>\n<script");
+
+WriteLiteral(" type=\"text/javascript\"");
+
+WriteLiteral(" src=\"//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js\"");
+
+WriteLiteral("></script>\n");
 
             
             #line 34 "..\..MVC\Views\ImageGallery\List.ImageGallery.cshtml"

@@ -276,7 +276,7 @@ WriteLiteral("                  ");
             
             #line default
             #line hidden
-WriteLiteral(" />\n\n\t</p>\n");
+WriteLiteral(" />hooooo\n\n\t</p>\n");
 
             
             #line 49 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
@@ -409,14 +409,14 @@ WriteLiteral("\t\t\t<a");
 
 WriteLiteral(" class=\"text-center\"");
 
-WriteAttribute("title", Tuple.Create(" title=\"", 2471), Tuple.Create("\"", 2497)
+WriteAttribute("title", Tuple.Create(" title=\"", 2477), Tuple.Create("\"", 2503)
             
             #line 75 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 2479), Tuple.Create<System.Object, System.Int32>(item.Fields.Title
+, Tuple.Create(Tuple.Create("", 2485), Tuple.Create<System.Object, System.Int32>(item.Fields.Title
             
             #line default
             #line hidden
-, 2479), false)
+, 2485), false)
 );
 
 WriteLiteral(" data-item=\"");
@@ -443,24 +443,24 @@ WriteLiteral("\"");
 
 WriteLiteral(">\n        <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 2692), Tuple.Create("\"", 2727)
+WriteAttribute("src", Tuple.Create(" src=\"", 2698), Tuple.Create("\"", 2733)
             
             #line 76 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 2698), Tuple.Create<System.Object, System.Int32>(itemViewModel.ThumbnailUrl
+, Tuple.Create(Tuple.Create("", 2704), Tuple.Create<System.Object, System.Int32>(itemViewModel.ThumbnailUrl
             
             #line default
             #line hidden
-, 2698), false)
+, 2704), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 2728), Tuple.Create("\"", 2762)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 2734), Tuple.Create("\"", 2768)
             
             #line 76 "..\..MVC\Views\ImageGallery\List.ThumbnailStrip.cshtml"
-, Tuple.Create(Tuple.Create("", 2734), Tuple.Create<System.Object, System.Int32>(item.Fields.AlternativeText
+, Tuple.Create(Tuple.Create("", 2740), Tuple.Create<System.Object, System.Int32>(item.Fields.AlternativeText
             
             #line default
             #line hidden
-, 2734), false)
+, 2740), false)
 );
 
 WriteLiteral(" \n                      ");
