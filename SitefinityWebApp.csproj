@@ -1067,12 +1067,11 @@
     <Compile Include="AzureWebRole.cs" />
     <Compile Include="Custom\Helpers\CarouselHelper.cs" />
     <Compile Include="Mvc\Controllers\CustomCarouselController.cs" />
-    <Compile Include="Mvc\Controllers\LibraryCarouselController.cs" />
     <Compile Include="Mvc\Models\CustomCarouselModel.cs" />
-    <Compile Include="Mvc\Models\LibraryCarouselModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Custom\Content\Images\background.jpg" />
@@ -1408,7 +1407,6 @@
     <Content Include="Custom\Content\Fonts\MetricWeb-Medium.woff" />
     <Content Include="Custom\Content\Fonts\MetricWeb-Regular.woff" />
     <Content Include="Mvc\Views\CustomCarousel\Default.cshtml" />
-    <Content Include="Mvc\Views\LibraryCarousel\Default.cshtml" />
     <None Include="packages.config" />
     <Content Include="ResourcePackages\SmoothFusion\MVC\Views\Layouts\customLayout.cshtml" />
     <Content Include="ResourcePackages\SmoothFusion\razorgenerator.directives" />

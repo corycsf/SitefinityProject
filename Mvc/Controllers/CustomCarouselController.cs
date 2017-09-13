@@ -10,6 +10,7 @@ using Telerik.Sitefinity.DynamicModules;
 using Telerik.Sitefinity.DynamicModules.Model;
 using Telerik.Sitefinity.Model;
 using Telerik.Sitefinity.Mvc;
+using Telerik.Sitefinity.RelatedData;
 using Telerik.Sitefinity.Utilities.TypeConverters;
 
 namespace SitefinityWebApp.Mvc.Controllers
@@ -25,10 +26,19 @@ namespace SitefinityWebApp.Mvc.Controllers
         {
             var helper = new CarouselHelper();
 
-            var carousel = helper.RetrieveCollectionOfItem(_carouselType).FirstOrDefault();
+            //Get all Carousel items
+            var carousels = helper.RetrieveCollectionOfItem(_carouselType).ToList();
+
+            //create object to get image and sort order and cast them to their types
+            var imageAndSortOrder = carousels.Select(x => new 
+                {
+                    Image = x.GetRelatedItems<Telerik.Sitefinity.Libraries.Model.Image>("Image").FirstOrDefault(),
+                    SortOrder = Convert.ToInt32(x.GetValue("SortOrder"))
+                });
+
             var model = new CustomCarouselModel();
-            
-            model.Images = helper.GetImageItemsFromCarouselID(carousel).OrderBy(x => x.Ordinal).ToList();
+            //Sort items by sortorder, select them 
+            model.Images = imageAndSortOrder.OrderBy(x=> x.SortOrder).Select(x=> x.Image).ToList();
 
             return View("Default", model);
         }

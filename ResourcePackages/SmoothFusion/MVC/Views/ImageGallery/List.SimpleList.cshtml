@@ -8,7 +8,7 @@
 
 @Html.Script(ScriptRef.JQuery, "top")
 
-<div class="@Model.CssClass">
+<div class="@Model.CssClass car-wrapper">
     @foreach (var item in Model.Items)
     {
         var thumbnailViewModel = (ThumbnailViewModel)item;

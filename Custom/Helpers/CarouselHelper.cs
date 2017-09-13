@@ -18,12 +18,15 @@ namespace SitefinityWebApp.Custom.Helpers
     public class CarouselHelper
     {
         // Demonstrates how child content items can be retrieved
-        public List<Telerik.Sitefinity.Libraries.Model.Image> GetImageItemsFromCarouselID(DynamicContent carousel)
+        public List<Telerik.Sitefinity.Libraries.Model.Image> GetImageItemsFromCarouselID(List<DynamicContent> carousels)
         {
             var images = new List<Telerik.Sitefinity.Libraries.Model.Image>();
-            if (carousel != null)
+            if (carousels != null)
             {
-                var relatedImages = carousel.GetRelatedItems<Telerik.Sitefinity.Libraries.Model.Image>("Images").ToList();
+                var relatedImages = carousels.SelectMany(x=> new List<Telerik.Sitefinity.Libraries.Model.Image>
+                {
+                    x.GetRelatedItems<Telerik.Sitefinity.Libraries.Model.Image>("Image").FirstOrDefault()
+                });
 
                 images.AddRange(relatedImages);
             }

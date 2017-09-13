@@ -352,5 +352,5 @@ iframe {
     margin: 0 auto;
 }
 .slick-prev:before, .slick-next:before {
-    color: black !important;
+    color: gray !important;
 }

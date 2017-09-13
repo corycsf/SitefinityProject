@@ -8,7 +8,6 @@ namespace SitefinityWebApp.Mvc.Models
 {
     public class CustomCarouselModel
     {
-        public string Message { get; set; }
         public List<Telerik.Sitefinity.Libraries.Model.Image> Images { get; set; }
     }
 }
