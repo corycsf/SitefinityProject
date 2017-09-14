@@ -6,7 +6,7 @@
     var images = Model.Images;
     int index = 0;
     int divIndex = 0;
-    var imageCount = Model.Images.Count;
+    var imageCount = images.Count;
 }
 @Html.Hidden("imageCount", imageCount);
 @foreach (var item in images)
@@ -21,8 +21,6 @@
 
                 @foreach (var image in images)
                 {
-                    var url = image.MediaUrl;
-
                     <div class="car-row">
                         <div id="car-image-@divIndex">
                             <span>@image.Title</span>
