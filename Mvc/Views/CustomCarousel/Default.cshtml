@@ -3,30 +3,19 @@
 
 @model SitefinityWebApp.Mvc.Models.CustomCarouselModel
 
-
-@*@{
-    var idIndex = 0;
-    var divIndex = 0;
-    var imageCount = Model.Images.Count;
-}
-@Html.Hidden("imageCount", imageCount)*@
-
 <div class="content-wrapper">
     <div class="content-panel main-content">
         <div class="content-head">
             <div class="car-wrapper">
-                
+
                 @foreach (var image in Model.Images)
                 {
-                     
-                        var url = image.MediaUrl;
-                    
+                    var url = image.MediaUrl;
+
                     <div class="car-row">
                         <div style="background-image: url('@url');">
                             <span>@image.Title</span>
                         </div>
-                            @*<img src="@image.Url" alt="@image.Title" />
-                            @image.Title*@
                     </div>
 
                 }

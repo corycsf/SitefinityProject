@@ -1,23 +1,22 @@
 ﻿.car-row {
-    /*margin: 30px 10px !important;*/
     margin: 0 auto;
     text-align: center;
 }
 
-.car-wrapper img {
-    margin: 0 auto;
-    
-}
-.car-row div {
-    /*background-size:200px 200px;
-    height:100%;*/
-    margin: 0 auto;
-    height: 200px;
-    width: 200px;
-}
-.car-row div span{
-    line-height:200px;
-}
+    .car-wrapper img,
+    .car-row div {
+        margin: 0 auto;
+    }
+
+    .car-row div {
+        height: 200px;
+        width: 200px;
+    }
+
+        .car-row div span {
+            line-height: 200px;
+        }
+
 .car-wrapper {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
