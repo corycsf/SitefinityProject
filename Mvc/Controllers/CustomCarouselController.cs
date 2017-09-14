@@ -18,6 +18,8 @@ namespace SitefinityWebApp.Mvc.Controllers
     [ControllerToolboxItem(Name = "CustomCarousel", Title = "CustomCarousel", SectionName = "MvcWidgets")]
     public class CustomCarouselController : Controller
     {
+        
+
         [Category("String Properties")]
         public string CarouselTitle { get; set; }
                 
@@ -25,25 +27,14 @@ namespace SitefinityWebApp.Mvc.Controllers
         public ActionResult Index()
         {
             var helper = new CarouselHelper();
-
-            //Get all Carousel items
-            var carousels = helper.RetrieveCollectionOfItem(_carouselType).ToList();
-
-            //create object to get image and sort order and cast them to their types
-            var imageAndSortOrder = carousels.Select(x => new 
-                {
-                    Image = x.GetRelatedItems<Telerik.Sitefinity.Libraries.Model.Image>("Image").FirstOrDefault(),
-                    SortOrder = Convert.ToInt32(x.GetValue("SortOrder"))
-                });
-
-            var model = new CustomCarouselModel();
-            //Sort items by sortorder, select them 
-            model.Images = imageAndSortOrder.OrderBy(x=> x.SortOrder).Select(x=> x.Image).ToList();
+            
+            //Get model
+            var model = helper.GetCustomCarouselModel();
 
             return View("Default", model);
         }
 
-        private readonly Type _carouselType = TypeResolutionService.ResolveType("Telerik.Sitefinity.DynamicTypes.Model.Carousels.Carousel");
+        
         
     }
 }

@@ -336,21 +336,3 @@ iframe {
 .reply-checkbox{
     padding-left:30px;
 }
-.car-row {
-    /*margin: 30px 10px !important;*/
-    margin:0 auto;
-    text-align:center;
-    
-}
-.car-wrapper img{
-    margin:0 auto;
-}
-.car-wrapper {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
-    width:20%;
-    margin: 0 auto;
-}
-.slick-prev:before, .slick-next:before {
-    color: gray !important;
-}

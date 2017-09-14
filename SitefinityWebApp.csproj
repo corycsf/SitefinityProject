@@ -1079,6 +1079,8 @@
     <Content Include="Custom\Content\Images\background.jpg" />
     <Content Include="Custom\Content\Images\HPE_logo.png" />
     <Content Include="Custom\Content\Images\HPE_logox16.png" />
+    <Content Include="Custom\Content\Scripts\carousel.js" />
+    <Content Include="Custom\Content\Styles\carousel.css" />
     <Content Include="ResourcePackages\SmoothFusion\MVC\Scripts\site.js" />
     <Content Include="Custom\Content\Styles\fonts.css" />
     <Content Include="Custom\Content\Styles\fonts.min.css" />

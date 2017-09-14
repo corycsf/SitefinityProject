@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SitefinityWebApp.Mvc.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security;
@@ -17,46 +18,43 @@ namespace SitefinityWebApp.Custom.Helpers
 {
     public class CarouselHelper
     {
-        // Demonstrates how child content items can be retrieved
-        public List<Telerik.Sitefinity.Libraries.Model.Image> GetImageItemsFromCarouselID(List<DynamicContent> carousels)
-        {
-            var images = new List<Telerik.Sitefinity.Libraries.Model.Image>();
-            if (carousels != null)
-            {
-                var relatedImages = carousels.SelectMany(x=> new List<Telerik.Sitefinity.Libraries.Model.Image>
-                {
-                    x.GetRelatedItems<Telerik.Sitefinity.Libraries.Model.Image>("Image").FirstOrDefault()
-                });
+        private readonly Type _carouselType = TypeResolutionService.ResolveType("Telerik.Sitefinity.DynamicTypes.Model.Carousels.Carousel");
+        private DynamicModuleManager _dynamicModuleManager;
 
-                images.AddRange(relatedImages);
-            }
-
-            return images;
-        }
-        public List<Telerik.Sitefinity.Libraries.Model.Image> GetImagesByAlbumFluentAPI(string libraryName)
-        {
-            return App.WorkWith().Images().Where(a => a.Parent.Title == libraryName && a.Status == ContentLifecycleStatus.Live).Get()?.ToList();
-        }
         public DynamicModuleManager DynamicModuleManager
         {
             get
             {
-                if (dynamicModuleManager == null)
+                if (_dynamicModuleManager == null)
                 {
-                    dynamicModuleManager = DynamicModuleManager.GetManager();
+                    _dynamicModuleManager = DynamicModuleManager.GetManager();
                 }
-                return dynamicModuleManager;
+                return _dynamicModuleManager;
             }
         }
         public IQueryable<DynamicContent> RetrieveCollectionOfItem(Type contentType)
         {
-            // This is how we get the collection of Carousel items
             var myCollection = DynamicModuleManager.GetDataItems(contentType);
-            // At this point myCollection contains the items from type carouselType
-            return myCollection.Where(x => x.Status == Telerik.Sitefinity.GenericContent.Model.ContentLifecycleStatus.Live && x.Visible);
+            return myCollection.Where(x => x.Status == ContentLifecycleStatus.Live && x.Visible);
         }
-        private DynamicModuleManager dynamicModuleManager;
+        public CustomCarouselModel GetCustomCarouselModel()
+        {
+            //Get all Carousel items
+            var carousels = this.RetrieveCollectionOfItem(_carouselType).ToList();
 
+            //create object to get image and sort order and cast them to their types
+            var imageAndSortOrder = carousels.Select(x => new
+            {
+                Image = x.GetRelatedItems<Telerik.Sitefinity.Libraries.Model.Image>("Image").FirstOrDefault(),
+                SortOrder = Convert.ToInt32(x.GetValue("SortOrder"))
+            });
+
+            return new CustomCarouselModel
+            {
+                //Sort items by sortorder, select them 
+                Images = imageAndSortOrder.OrderBy(x => x.SortOrder).Select(x => x.Image).ToList()
+            };
+        }
 
     }
 }
