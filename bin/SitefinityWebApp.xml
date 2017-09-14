@@ -13,5 +13,14 @@
             The functionality goes into the base class - <see cref="T:Telerik.Sitefinity.Cloud.WindowsAzure.AzureWebRoleBase"/>.
             </remarks>
         </member>
+        <member name="F:SitefinityWebApp.Custom.Widgets.CustomCarousel.CustomCarousel.imageRptr">
+            <summary>
+            imageRptr control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
     </members>
 </doc>
