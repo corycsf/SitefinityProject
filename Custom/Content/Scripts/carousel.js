@@ -8,13 +8,13 @@
         cssEase: 'linear'
     });
 
-    //var imageCount = $('#imageCount').val();
+    var imageCount = $('#imageCount').val();
 
-    //for (var i = 0; i < imageCount; i++) {
-    //    var imageDiv = $('#car-image-' + i);
-    //    var imageUrl = $('#image-url-' + i).val();
+    for (var i = 0; i < imageCount; i++) {
+        var imageDiv = $('#car-image-' + i);
+        var imageUrl = $('#image-url-' + i).val();
 
-    //    imageDiv.css('background-image', 'url("' + imageUrl + '")');
+        imageDiv.css('background-image', 'url("' + imageUrl + '")');
         
-    //}
+    }
 });

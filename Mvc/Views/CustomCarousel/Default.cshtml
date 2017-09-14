@@ -2,22 +2,33 @@
 @using Telerik.Sitefinity.Model
 
 @model SitefinityWebApp.Mvc.Models.CustomCarouselModel
-
+@{ 
+    var images = Model.Images;
+    int index = 0;
+    int divIndex = 0;
+    var imageCount = Model.Images.Count;
+}
+@Html.Hidden("imageCount", imageCount);
+@foreach (var item in images)
+{
+    @Html.Hidden("image-url-" + index, item.Url)
+    index++;
+}
 <div class="content-wrapper">
     <div class="content-panel main-content">
         <div class="content-head">
             <div class="car-wrapper">
 
-                @foreach (var image in Model.Images)
+                @foreach (var image in images)
                 {
                     var url = image.MediaUrl;
 
                     <div class="car-row">
-                        <div style="background-image: url('@url');">
+                        <div id="car-image-@divIndex">
                             <span>@image.Title</span>
                         </div>
                     </div>
-
+                    divIndex++;
                 }
             </div>
 
