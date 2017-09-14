@@ -1072,6 +1072,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="bin\SitefinityWebApp.dll" />
+    <Content Include="bin\SitefinityWebApp.pdb" />
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Custom\Content\Images\background.jpg" />
