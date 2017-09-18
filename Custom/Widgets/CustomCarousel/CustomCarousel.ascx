@@ -1,6 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CustomCarousel.ascx.cs" Inherits="SitefinityWebApp.Custom.Widgets.CustomCarousel.CustomCarousel" %>
 
 
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
 <div class="content-wrapper">
     <div class="content-panel main-content">
         <div class="content-head">
@@ -26,4 +28,26 @@
     </div>
 </div>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<script type="text/javascript" src="~/Custom/Content/Scripts/carousel.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('.car-wrapper').slick({
+            dots: true,
+            infinite: true,
+            speed: 900,
+            fade: true,
+            cssEase: 'linear'
+        });
+
+        var imageCount = $('#imageCount').val();
+
+        for (var i = 0; i < imageCount; i++) {
+            var imageDiv = $('#car-image-' + i);
+            var imageUrl = $('#image-url-' + i).val();
+
+            imageDiv.css('background-image', 'url("' + imageUrl + '")');
+
+        }
+    });
+
+</script>
