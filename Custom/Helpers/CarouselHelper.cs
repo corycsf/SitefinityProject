@@ -1,6 +1,7 @@
 ﻿using SitefinityWebApp.Mvc.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security;
 using System.Web;
@@ -10,6 +11,7 @@ using Telerik.Sitefinity.DynamicModules;
 using Telerik.Sitefinity.DynamicModules.Model;
 using Telerik.Sitefinity.GenericContent.Model;
 using Telerik.Sitefinity.Model;
+using Telerik.Sitefinity.Modules.Libraries;
 using Telerik.Sitefinity.RelatedData;
 using Telerik.Sitefinity.Utilities.TypeConverters;
 using Telerik.Sitefinity.Versioning;
@@ -41,7 +43,7 @@ namespace SitefinityWebApp.Custom.Helpers
         {
             //Get all Carousel items
             var carousels = this.RetrieveCollectionOfItem(_carouselType).ToList();
-
+            
             //create object to get image and sort order and cast them to their types
             var imageAndSortOrder = carousels.Select(x => new
             {
