@@ -1100,6 +1100,7 @@
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Custom\Content\Images\background.jpg" />
+    <Content Include="Custom\Content\Images\filmImage20px.png" />
     <Content Include="Custom\Content\Images\HPE_logo.png" />
     <Content Include="Custom\Content\Images\HPE_logox16.png" />
     <Content Include="Custom\Content\Images\youtube-15x15.png" />
@@ -1265,6 +1266,7 @@
     <Content Include="Templates\ContentBlockTemplate.ascx" />
     <Content Include="Templates\HtmlField.ascx" />
     <Content Include="Templates\HtmlField.css" />
+    <Content Include="Templates\HtmlField.js" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>

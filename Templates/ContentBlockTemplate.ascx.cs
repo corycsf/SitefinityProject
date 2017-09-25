@@ -23,7 +23,7 @@ namespace SitefinityWebApp.Templates
                 base.Render(writer);
                 return;
             }
-            
+
             // expand shortcodes, add additional codes inside the Execute method
             contentHtml.Text = ShortcodeProcessor.Execute(contentHtml.Text);
 
